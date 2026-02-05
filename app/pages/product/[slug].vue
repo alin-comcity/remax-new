@@ -5,15 +5,11 @@ const currentTab = ref(1);
 
 const url = `https://admindash.comcitybd.com/api/product/${slug.value}`;
 
-console.log(url);
-
 const { data: product } = await useFetch(url);
 
 const selectTab = (selectedTab) => {
   currentTab.value = selectedTab;
 };
-
-console.log(product.value);
 </script>
 
 <style scoped>

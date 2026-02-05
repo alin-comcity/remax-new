@@ -12,14 +12,14 @@
       </h2>
     </div>
 
-    <h2 class="mt-10">
+    <h2 class="py-5">
       This Privacy Policy describes how your personal information is collected,
       used, and shared when you visit or make a purchase from remax.com.bd
     </h2>
 
-    <h2 class="font-semibold mt-10">PERSONAL INFORMATION WE COLLECT</h2>
+    <h2 class="font-semibold py-5">PERSONAL INFORMATION WE COLLECT</h2>
 
-    <p>
+    <p class="py-5">
       When you visit the Site, we automatically collect certain information
       about your device, including information about your web browser, IP
       address, time zone, and some of the cookies that are installed on your
@@ -31,13 +31,13 @@
       the following technologies:
     </p>
 
-    <p>
+    <p class="py-5">
       - “Cookies” are data files that are placed on your device or computer and
       often include an anonymous unique identifier. For more information about
       cookies, and how to disable cookies, visit http://www.allaboutcookies.org.
     </p>
 
-    <p>
+    <p class="py-5">
       - “Log files” track actions occurring on the Site, and collect data
       including your IP address, browser type, Internet service provider,
       referring/exit pages, and date/time stamps. - “Web beacons”, “tags”, and
@@ -49,7 +49,7 @@
       Information.
     </p>
 
-    <p>
+    <p class="py-5">
       HOW DO WE USE YOUR PERSONAL INFORMATION? We use the Order Information that
       we collect generally to fulfill any orders placed through the Site
       (including processing your payment information, arranging for shipping,
@@ -57,7 +57,7 @@
       we use this Order Information to:
     </p>
 
-    <p>
+    <p class="py-5">
       - Communicate with you; - Screen our orders for potential risk or fraud;
       and - When in line with the preferences you have shared with us, provide
       you with information or advertising relating to our products or services.
@@ -72,7 +72,7 @@
     </p>
 
     <h2 class="font-semibold mt-10">SHARING YOUR PERSONAL INFORMATION</h2>
-    <p>
+    <p class="py-5">
       We share your Personal Information with third parties to help us use your
       Personal Information, as described above. We use Google Analytics to help
       us understand how our customers use the Site — you can read more about how
@@ -85,7 +85,7 @@
     </p>
 
     <h2 class="font-semibold mt-10">BEHAVIOURAL ADVERTISING</h2>
-    <p>
+    <p class="py-5">
       As described above, we use your Personal Information to provide you with
       targeted advertisements or marketing communications we believe may be of
       interest to you. For more information about how targeted advertising
@@ -94,7 +94,7 @@
       http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
     </p>
 
-    <p>
+    <p class="py-5">
       You can opt out of targeted advertising by using the links below: -
       Facebook: https://www.facebook.com/settings/?tab=ads - Google:
       https://www.google.com/settings/ads/anonymous - Bing:
@@ -106,27 +106,27 @@
 
     <h2 class="font-semibold mt-10">DO NOT TRACK</h2>
     <p>
-      Please note that we do not alter our Site’s data collection and use
+      Please note that we do not alter our Site`s data collection and use
       practices when we see a Do Not Track signal from your browser. Please note
       that your information may be transferred outside of Bangladesh.
     </p>
 
     <h2 class="font-semibold mt-10">DATA RETENTION</h2>
-    <p>
+    <p class="py-5">
       When you place an order through the Site, we will maintain your Order
       Information for our records unless and until you ask us to delete this
       information.
     </p>
 
     <h2 class="font-semibold mt-10">CHANGES</h2>
-    <p>
+    <p class="py-5">
       We may update this privacy policy from time to time in order to reflect,
       for example, changes to our practices or for other operational, legal or
       regulatory reasons.
     </p>
 
     <h2 class="font-semibold mt-10">CONTACT US</h2>
-    <p>
+    <p class="py-5">
       For more information about our privacy practices, if you have questions,
       or if you would like to make a complaint, please contact us by e mail at
       (info@remax.com.bd)
