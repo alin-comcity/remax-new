@@ -35,13 +35,13 @@ const submitSearch = () => {
       <!-- Logo -->
       <div class="col-span-4 flex items-center pl-4">
         <NuxtLink to="/">
-          <img src="/remax-logo.png" class="h-6" />
+          <NuxtImg src="/remax-logo.png" class="h-6" />
         </NuxtLink>
       </div>
 
       <!-- Search icon -->
       <div class="col-span-1 flex justify-end items-center">
-        <img
+        <NuxtImg
           src="/search.png"
           class="h-6 w-6 cursor-pointer"
           @click="toggleSearch"
@@ -81,7 +81,7 @@ const submitSearch = () => {
       <!-- Hamburger menu -->
       <div class="col-span-1 flex justify-center items-center">
         <button type="button" @click="toggleMenu">
-          <img src="/ham.png" class="h-6 cursor-pointer" />
+          <NuxtImg src="/ham.png" class="h-6 cursor-pointer" />
         </button>
       </div>
     </div>

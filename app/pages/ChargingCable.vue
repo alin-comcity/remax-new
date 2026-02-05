@@ -28,7 +28,7 @@ const { data: products } = await useFetch(
           :key="product.slug"
         >
           <NuxtLink :to="`/product/${product.slug}`">
-            <img :src="product.photo" :alt="product.name" />
+            <NuxtImg :src="product.photo" :alt="product.name" />
             <p class="text-rongtatext text-sm font-semibold px-8 py-2">
               {{ product.name }}
             </p>

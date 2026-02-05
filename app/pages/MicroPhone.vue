@@ -34,7 +34,7 @@ const { data: products } = await useFetch(
           :key="product.slug"
         >
           <NuxtLink :to="`/product/${product.slug}`">
-            <img
+            <NuxtImg
               :src="product.photo"
               :alt="product.name"
               style="width: 250px"

@@ -157,7 +157,7 @@ const toggleThanks = () => {
                 >
                   <p class="leading-normal my-5">
                     75-76, B.S. Bhaban, 3rd Floor Laboratory Road Dhaka-1205,
-                    Bangladesh Tel: +88029612629-30 .
+                    Bangladesh Tel: +880 9604700800 .
                   </p>
                 </div>
               </div>

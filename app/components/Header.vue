@@ -6,6 +6,8 @@ const showMenuEN = ref(false);
 const showSearch = ref(false);
 const query = ref("");
 
+const router = useRouter();
+
 const images = ref(["/slider-one.jpg", "/slider-two.jpg", "/slider-three.jpg"]);
 const currentIndex = ref(0);
 let timer = null;
@@ -58,6 +60,13 @@ const prev = () => {
 const currentImg = computed(() => {
   return images.value[Math.abs(currentIndex.value) % images.value.length];
 });
+
+const search = (event) => {
+  console.log(event);
+  if (event.trim() !== "") {
+    router.push({ path: `/search/${event}` });
+  }
+};
 </script>
 
 <template>
@@ -69,7 +78,7 @@ const currentImg = computed(() => {
       <div class="grid grid-cols-12">
         <div class="col-span-3 pt-4 pl-4">
           <NuxtLink to="/">
-            <img src="/remax-logo.png" class="h-8" />
+            <NuxtImg src="/remax-logo.png" class="h-8" />
           </NuxtLink>
         </div>
 
@@ -251,7 +260,11 @@ const currentImg = computed(() => {
         <!-- Search Box -->
         <div class="col-span-3 flex justify-center pt-2">
           <NuxtLink to="">
-            <img src="/search.png" class="h-6 relative" @click="toggleSearch" />
+            <NuxtImg
+              src="/search.png"
+              class="h-6 relative"
+              @click="toggleSearch"
+            />
           </NuxtLink>
 
           <transition
@@ -264,10 +277,7 @@ const currentImg = computed(() => {
           >
             <div class="absolute top-12 right-28" v-if="showSearch">
               <div>
-                <form
-                  class="inline"
-                  @submit.prevent="$nuxt.$emit('customSearch', query)"
-                >
+                <form class="inline" @submit.prevent="search(query)">
                   <input
                     class="py-1 border border-gray-400 rounded px-2 text-sm"
                     type="text"

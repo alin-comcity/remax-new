@@ -14,7 +14,7 @@
         <div
           class="border border-white hover:bg-[#cc0100] hover:shadow hover:border-[#cc0100] hover:transition-all rounded-full"
         >
-          <img src="/audio-category.png" class="p-8" />
+          <NuxtImg src="/audio-category.png" class="p-8" />
         </div>
         <p class="font-display text-center py-2 text-sm">Audio</p>
       </div>
@@ -23,7 +23,7 @@
         <div
           class="border border-white hover:bg-[#cc0100] hover:shadow hover:border-[#cc0100] hover:transition-all rounded-full"
         >
-          <img src="/energy-category.png" class="p-8" />
+          <NuxtImg src="/energy-category.png" class="p-8" />
         </div>
         <p class="font-display text-center py-2 text-sm">Energy</p>
       </div>
@@ -32,7 +32,7 @@
         <div
           class="border border-white hover:bg-[#cc0100] hover:shadow hover:border-[#cc0100] hover:transition-all rounded-full"
         >
-          <img src="/lifestyle-category.png" class="p-8" />
+          <NuxtImg src="/lifestyle-category.png" class="p-8" />
         </div>
         <p class="font-display text-center text-sm py-2">Creative Lifestyle</p>
       </div>
@@ -41,7 +41,7 @@
         <div
           class="border border-white hover:bg-[#cc0100] hover:shadow hover:border-[#cc0100] hover:transition-all rounded-full"
         >
-          <img src="/protection-category.png" class="p-8" />
+          <NuxtImg src="/protection-category.png" class="p-8" />
         </div>
         <p class="font-display text-center py-2 text-sm">Protection</p>
       </div>

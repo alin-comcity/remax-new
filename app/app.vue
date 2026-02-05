@@ -1,7 +1,4 @@
 <script setup>
-const showSearch = ref(false);
-const mydata = ref("");
-
 const router = useRouter();
 const nuxtApp = useNuxtApp();
 

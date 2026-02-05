@@ -14,7 +14,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="https://youtu.be/fZ63sm3PVjs">
-            <img
+            <NuxtImg
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/blog-four.jpg"
               alt="content"
@@ -36,7 +36,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="https://youtu.be/6-CzR0BbpwU">
-            <img
+            <NuxtImg
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/blog-one.jpg"
               alt="content"
@@ -57,7 +57,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="https://youtu.be/gwSW-yL-oLc">
-            <img
+            <NuxtImg
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/blog-two.jpg"
               alt="content"
@@ -77,7 +77,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="https://youtu.be/rGgw_0_93pA">
-            <img
+            <NuxtImg
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/blog-three.jpg"
               alt="content"
