@@ -7,10 +7,5 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false,
     },
   },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/image",
-    "@nuxtjs/sitemap",
-    "@nuxtjs/seo",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
 });
