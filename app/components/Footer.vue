@@ -49,18 +49,15 @@
           <!-- <li class="text-xm p-2">
                         <NuxtLink to="/latestpost" class="hover:text-white">Latest Posts</NuxtLink>
                     </li> -->
-          <li class="text-xm p-2">
+          <!-- <li class="text-xm p-2">
             <NuxtLink to="/contact" class="hover:text-white">Contact</NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </div>
 
       <!-- Form Section -->
       <div class="col-span-1">
-        <p class="leading-normal my-5">
-          75-76, B.S. Bhaban, 3rd Floor Laboratory Road Dhaka-1205, Bangladesh
-          Tel: +880 9604700800 .
-        </p>
+        <p class="leading-normal my-5"></p>
       </div>
     </div>
 
@@ -68,18 +65,12 @@
       class="p-8 grid lg:grid-flow-col lg:grid-cols-2 grid-cols-1 border-t border-white bg-[#1B1F23]"
     >
       <div class="col-span-1 flex items-center gap-3">
-        <div>
-          <p class>Follow Our Social :</p>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/remax.cctl">
-            <NuxtImg src="/fb-social.svg" class="h-6" />
-          </a>
-        </div>
+        <div></div>
+        <div></div>
       </div>
 
       <div class="col-span-1 lg:text-right">
-        <p class>© Copyright 2022 Remax BD</p>
+        <p class>© Copyright 2026 Remax BD</p>
       </div>
     </div>
   </div>

@@ -29,7 +29,7 @@ useSeoMeta({
 </style>
 
 <template>
-  <div class="font-display py-8">
+  <div class="font-display py-5">
     <div class="text-center lg:text-3xl text-lg font-light">
       <h2>New Arrival</h2>
     </div>
