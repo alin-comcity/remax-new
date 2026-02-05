@@ -27,9 +27,6 @@
             <NuxtLink to="/about" class="hover:text-white">About</NuxtLink>
           </li>
           <li class="text-xm p-2">
-            <NuxtLink to="/support" class="hover:text-white">Support</NuxtLink>
-          </li>
-          <li class="text-xm p-2">
             <NuxtLink to="/terms" class="hover:text-white"
               >Privacy Policy</NuxtLink
             >
